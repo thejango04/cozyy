@@ -346,7 +346,6 @@ To keep the build tight:
 - ❌ User accounts / authentication
 - ❌ Backend / API
 - ❌ User-submitted schedule marketplace
-- ❌ Dark mode
 - ❌ Mobile native apps
 - ❌ Notifications / push reminders (requires backend)
 - ❌ Drag-and-drop schedule resizing (cool but not MVP)
