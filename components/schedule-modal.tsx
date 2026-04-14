@@ -254,7 +254,7 @@ export function ScheduleModal({
   const [title, setTitle] = React.useState("");
   const [dateFrom, setDateFrom] = React.useState<string | null>(null);
   const [dateTo, setDateTo] = React.useState<string | null>(null);
-  const [color, setColor] = React.useState(COLOR_PRESETS[0].value);
+  const [color, setColor] = React.useState<string>(COLOR_PRESETS[0].value);
   const [description, setDescription] = React.useState("");
   const [descriptionExpanded, setDescriptionExpanded] = React.useState(false);
   const [items, setItems] = React.useState<ScheduleItem[]>([]);
